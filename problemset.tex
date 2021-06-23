@@ -1,0 +1,112 @@
+\documentclass[11pt]{article} 
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{multirow,booktabs}
+\usepackage[table]{xcolor}
+\usepackage{fullpage}
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage{cancel}
+\usepackage[retainorgcmds]{IEEEtrantools} 
+\usepackage[margin=3cm]{geometry}
+\usepackage{amsmath}
+\newlength{\tabcont}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in} 
+\usepackage{empheq} 
+\usepackage{framed}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\parindent 0in
+\parskip 12pt
+\geometry{margin=1in, headsep=0.25in}
+\theoremstyle{definition} 
+\newtheorem{defn}{Definition}
+\newtheorem{reg}{Rule}
+\newtheorem{exer}{Exercise}
+\newtheorem{note}{Note} 
+\newtheorem{solution}{Solution} 
+\newtcolorbox{redbox}{colback=red!5!white,colframe=red!75!black}
+\newtcolorbox{bluebox}{colback=blue!5!white,colframe=blue!75!black} 
+\newtcbtheorem 
+  [] 
+  {definition} 
+  {Definition} 
+  { 
+    colback=blue!5,
+    colframe=blue!35!black,
+    fonttitle=\bfseries,
+  } 
+  {def} 
+\newtcbtheorem 
+  [] 
+  {theorem} 
+  {Theorem} 
+  { 
+    colback=red!5,
+    colframe=red!35!black,
+    fonttitle=\bfseries,
+  } 
+  {def} 
+\newtcbtheorem 
+  [] 
+  {problem} 
+  {Problem} 
+  { 
+    colback=green!5,
+    colframe=green!35!black,
+    fonttitle=\bfseries,
+  } 
+  {def} 
+
+\newcommand\ASolution{ 
+  \stepcounter{solution} 
+  \textbf{\textit{Solution}:  }\\ 
+}
+
+\begin{document} 
+
+{\noindent\Huge\bf  \\[0.5\baselineskip] {\fontfamily{cmr}\selectfont  Problem Set 1}         }\\[2\baselineskip] % Title
+{ {\bf \fontfamily{cmr}\selectfont Introduction to Algorithms}\\ {\textit{\fontfamily{cmr}\selectfont     October 21, 2019}}}~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~    {\large \textsc{Jinha Kim}} %\footnote{With Elizabeth Petrik}% } 
+% \\[1.4\baselineskip] 
+
+\hrulefill
+
+\begin{problem}{Problem}{test}
+      English surjective $X$ injective
+      \[ a:\mathbb{N} \rightarrow X, \quad (a_1,a_2,a_3,...) = (a_n)_{n \geq 1} = (a_n)_n = (a_n) \]
+      homeomorphic, telegraphic \dots
+\end{problem} 
+
+\begin{ASolution}  
+  Hi $\dot{r_0} = \dot{R} + V$. 
+  Newton's second law for the inertial reference frame by differentiate and multiplying by mass is:
+  $F_{\text{inertial}} = -mA = -m\ddot{R}$
+\begin{proof}
+Thus, the proof is complete. 
+\end{proof} 
+\end{ASolution} 
+
+\begin{problem}{Problem}{test}
+  English surjective $X$ injective
+  \[ a:\mathbb{N} \rightarrow X, \quad (a_1,a_2,a_3,...) = (a_n)_{n \geq 1} = (a_n)_n = (a_n) \]
+  homeomorphic, telegraphic \dots
+\end{problem} 
+
+% \begin{bluebox}
+\begin{ASolution}  
+Hi $\dot{r_0} = \dot{R} + V$. 
+Newton's second law for the inertial reference frame by differentiate and multiplying by mass is:
+$F_{\text{inertial}} = -mA = -m\ddot{R}$
+\begin{proof}
+Thus, the proof is complete. 
+\end{proof} 
+\end{ASolution} 
+% \end{bluebox} 
+
+\end{document}  

@@ -1,0 +1,94 @@
+\documentclass[11pt]{article} 
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{multirow,booktabs}
+\usepackage[table]{xcolor}
+\usepackage{fullpage}
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage{cancel}
+\usepackage[retainorgcmds]{IEEEtrantools} 
+\usepackage[margin=3cm]{geometry}
+\usepackage{amsmath}
+\newlength{\tabcont}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in} 
+\usepackage{empheq} 
+\usepackage{framed}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\parindent 0in
+\parskip 12pt
+\geometry{margin=1in, headsep=0.25in}
+\theoremstyle{definition} 
+\newtheorem{defn}{Definition}
+\newtheorem{reg}{Rule}
+\newtheorem{exer}{Exercise}
+\newtheorem{note}{Note} 
+\newtcolorbox{redbox}{colback=red!5!white,colframe=red!75!black}
+\newtcolorbox{bluebox}{colback=blue!5!white,colframe=blue!75!black} 
+\newtcbtheorem 
+  [] 
+  {definition} 
+  {Definition} 
+  { 
+    colback=blue!5,
+    colframe=blue!35!black,
+    fonttitle=\bfseries,
+  } 
+  {def} 
+\newtcbtheorem 
+  [] 
+  {theorem} 
+  {Theorem} 
+  { 
+    colback=red!5,
+    colframe=red!35!black,
+    fonttitle=\bfseries,
+  } 
+  {def} 
+\newtcbtheorem 
+  [] 
+  {problem} 
+  {Problem} 
+  { 
+    colback=green!5,
+    colframe=green!35!black,
+    fonttitle=\bfseries,
+  } 
+  {def} 
+% \colorlet{shadecolor}{red!15}
+\newlength{\drop}
+
+\begin{document} 
+
+\begin{titlepage}
+    \drop=0.1\textheight
+    \centering
+    \vspace*{\baselineskip}
+    \rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt}
+    \rule{\textwidth}{0.4pt}\\[\baselineskip]
+    {\LARGE Introduction to Algorithms \\ [0.3\baselineskip] Lecture Notes }\\[0.2\baselineskip] 
+    \rule{\textwidth}{0.4pt}\vspace*{-\baselineskip}\vspace{3.2pt}
+    \rule{\textwidth}{1.6pt}\\[\baselineskip]
+    \scshape
+    18.001 Introduction to Algorithms \\ \par
+    \vspace*{2\baselineskip}
+    Written By \\[\baselineskip]
+    {\Large Jinha Kim \par}
+    {\itshape MIT \\ South Korea\par}
+    \vfill
+    {\scshape 2021} \\ 
+\end{titlepage}
+
+\setcounter{section}{8} % number to appear - 1 
+\title{Chapter Review Notes} 
+
+% \input{chapters/example_chapter.tex} 
+
+\end{document}
